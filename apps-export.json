@@ -1,0 +1,53 @@
+{
+  "categories": [],
+  "apps": [
+    {
+      "id": "app-timer-pro",
+      "name_ko": "타이머 프로",
+      "name_en": "Timer Pro",
+      "desc_ko": "심플하고 집중에 방해 없는 인터벌 타이머. 운동, 공부, 생산성 루틴에 최적화.",
+      "desc_en": "A clean, distraction-free interval timer. Perfect for workouts, study sessions, and productivity routines.",
+      "icon_url": null,
+      "platforms": ["android", "ios"],
+      "status": "coming-soon",
+      "category_id": null,
+      "categories": null,
+      "link_google_play": "",
+      "link_app_store": "",
+      "link_ms_store": "",
+      "sort_order": 0
+    },
+    {
+      "id": "app-note-quick",
+      "name_ko": "빠른 메모",
+      "name_en": "QuickNote",
+      "desc_ko": "마찰 제로의 즉각 메모. 열고, 쓰고, 끝. 계정 없음, 동기화 없음, 방해 없음.",
+      "desc_en": "Instant note-taking with zero friction. Open, type, done. No accounts, no sync, no distractions.",
+      "icon_url": null,
+      "platforms": ["android", "ios", "windows"],
+      "status": "coming-soon",
+      "category_id": null,
+      "categories": null,
+      "link_google_play": "",
+      "link_app_store": "",
+      "link_ms_store": "",
+      "sort_order": 1
+    },
+    {
+      "id": "app-unit-convert",
+      "name_ko": "단위 변환기",
+      "name_en": "UnitSwap",
+      "desc_ko": "일상 단위 변환기 — 길이, 무게, 온도, 환율 등을 빠르게 변환.",
+      "desc_en": "Fast unit converter for everyday needs — length, weight, temperature, currency, and more.",
+      "icon_url": null,
+      "platforms": ["android", "ios", "windows"],
+      "status": "coming-soon",
+      "category_id": null,
+      "categories": null,
+      "link_google_play": "",
+      "link_app_store": "",
+      "link_ms_store": "",
+      "sort_order": 2
+    }
+  ]
+}

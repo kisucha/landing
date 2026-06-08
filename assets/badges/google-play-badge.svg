@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 40" width="135" height="40" role="img" aria-label="Get it on Google Play">
+  <rect width="135" height="40" rx="5" fill="#1a1a2e"/>
+  <rect width="135" height="40" rx="5" fill="none" stroke="#444" stroke-width="1"/>
+  <!-- Play triangle -->
+  <polygon points="12,12 12,28 26,20" fill="#3ddc84"/>
+  <!-- Text: Get it on -->
+  <text x="34" y="16" font-family="Arial,sans-serif" font-size="8" fill="#aaa">GET IT ON</text>
+  <!-- Text: Google Play -->
+  <text x="34" y="28" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fff">Google Play</text>
+</svg>

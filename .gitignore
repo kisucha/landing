@@ -1,0 +1,27 @@
+# 환경변수 파일 (절대 커밋 금지 - 비밀번호/키 포함)
+.env
+server/.env
+*.env
+
+# Node.js 의존성
+server/node_modules/
+node_modules/
+
+# 로그
+*.log
+npm-debug.log*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+
+# OMC 임시 세션 상태 (스펙/플랜은 유지)
+.omc/state/
+server/.omc/
+
+# 구 Supabase 설정 (실제 키 포함, 더 이상 사용 안 함)
+supabase-config.js

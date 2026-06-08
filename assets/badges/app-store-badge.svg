@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 40" width="135" height="40" role="img" aria-label="Download on the App Store">
+  <rect width="135" height="40" rx="5" fill="#1a1a2e"/>
+  <rect width="135" height="40" rx="5" fill="none" stroke="#444" stroke-width="1"/>
+  <!-- Apple logo approximation -->
+  <text x="12" y="27" font-family="Arial,sans-serif" font-size="22" fill="#fff">&#xf179;</text>
+  <text x="14" y="27" font-family="Arial,sans-serif" font-size="18" fill="#aaa"></text>
+  <!-- Apple icon simple circle -->
+  <circle cx="20" cy="20" r="9" fill="#555"/>
+  <text x="15" y="25" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fff"></text>
+  <!-- Simple apple shape via text -->
+  <text x="14" y="26" font-size="16" font-family="serif" fill="#fff">&#x25CF;</text>
+  <!-- Text -->
+  <text x="34" y="16" font-family="Arial,sans-serif" font-size="8" fill="#aaa">DOWNLOAD ON THE</text>
+  <text x="34" y="28" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fff">App Store</text>
+</svg>
