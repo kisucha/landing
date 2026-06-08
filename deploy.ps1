@@ -1,11 +1,11 @@
-# Kisucha Studio — Windows 배포 스크립트
-# 사용법: .\deploy.ps1
-# 동작: 로컬 변경사항 push 후 서버에 SSH로 업데이트 명령 실행
+# Kisucha Studio - Windows deploy script
+# Usage: .\deploy.ps1
+# Pushes to Gitea then triggers update on server via SSH
 
 param(
-    [string]$Server   = "192.168.20.80",
-    [string]$User     = "kisucha",       # 서버 SSH 사용자명으로 변경
-    [string]$AppDir   = "/var/www/landing"
+    [string]$Server = "192.168.20.80",
+    [string]$User   = "kisucha",
+    [string]$AppDir = "/var/www/landing"
 )
 
 $ErrorActionPreference = "Stop"
@@ -19,8 +19,8 @@ if ($status) {
 }
 git push origin master
 
-Write-Host "[2/3] 서버 업데이트 (SSH)..." -ForegroundColor Cyan
+Write-Host "[2/3] Server update (SSH)..." -ForegroundColor Cyan
 ssh "${User}@${Server}" "bash ${AppDir}/deploy/update.sh"
 
-Write-Host "[3/3] 배포 완료!" -ForegroundColor Green
-Write-Host "  사이트: http://www.dogsound.net"
+Write-Host "[3/3] Deploy complete!" -ForegroundColor Green
+Write-Host "  URL: http://www.dogsound.net"
