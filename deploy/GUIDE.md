@@ -32,14 +32,14 @@ ssh kisucha@192.168.20.80
 bash /tmp/setup-server.sh
 
 # 3. .env 설정
-cp /var/www/landing/server/.env.example /var/www/landing/server/.env
-nano /var/www/landing/server/.env
+cp /opt/landing/server/.env.example /opt/landing/server/.env
+nano /opt/landing/server/.env
 
 # 4. MariaDB 스키마
-mysql -u root -p < /var/www/landing/server/schema.sql
+mysql -u root -p < /opt/landing/server/schema.sql
 
 # 5. PM2 시작
-cd /var/www/landing/server
+cd /opt/landing/server
 pm2 start ecosystem.config.js --env production
 pm2 save && pm2 startup
 ```
@@ -58,7 +58,7 @@ pm2 save && pm2 startup
 git push origin master
 
 # 2. 서버: pull + 재시작
-ssh kisucha@192.168.20.80 "bash /var/www/landing/deploy/update.sh"
+ssh kisucha@192.168.20.80 "bash /opt/landing/deploy/update.sh"
 ```
 
 ## PM2 명령어 (서버에서)

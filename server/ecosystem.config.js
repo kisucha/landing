@@ -5,7 +5,7 @@ module.exports = {
   apps: [{
     name:    'kisucha-studio',
     script:  './server.js',
-    cwd:     '/var/www/landing/server',
+    cwd:     '/opt/landing/server',
     instances: 1,
     autorestart: true,
     watch:   false,

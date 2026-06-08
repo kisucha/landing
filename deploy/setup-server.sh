@@ -5,7 +5,7 @@
 
 set -e
 
-APP_DIR="/var/www/landing"
+APP_DIR="/opt/landing"
 GITEA_URL="http://192.168.20.15:8418/kisucha/landing.git"
 
 echo "=== [1/7] 시스템 업데이트 ==="

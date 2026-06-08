@@ -1,11 +1,11 @@
 #!/bin/bash
 # Kisucha Studio — 서버 업데이트 스크립트
 # 배포 시마다 실행 (로컬 deploy.ps1에서 SSH로 호출)
-# 위치: /var/www/landing/deploy/update.sh
+# 위치: /opt/landing/deploy/update.sh
 
 set -e
 
-APP_DIR="/var/www/landing"
+APP_DIR="/opt/landing"
 
 echo "[deploy] git pull..."
 cd "$APP_DIR"
